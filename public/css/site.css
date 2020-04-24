@@ -1,0 +1,116 @@
+html,
+body {
+  background: #eff3f4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+.hero-body .container {
+  max-width: 700px;
+}
+.hero-body .title {
+  color: hsl(192, 17%, 99%) !important;
+}
+.hero-body .subtitle {
+  color: hsl(192, 17%, 99%) !important;
+  padding-top: 2rem;
+  line-height: 1.5;
+}
+.features {
+  padding: 1rem 0;
+}
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #dd2c00;
+}
+.card-content .content {
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+}
+.intro {
+  padding: 5rem 0;
+  text-align: center;
+}
+.sandbox {
+  padding: 5rem 0;
+}
+.tile.notification {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.is-shady {
+  animation: flyintoright 0.4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.is-shady:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+.navbar-burger {
+  color: white;
+}
+.navbar-item img {
+  max-height: 100%;
+}
+.tabs li.is-active a {
+  border-bottom-color: #dd2c00;
+  color: #dd2c00;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+
+.footer {
+  background-color: #2f2e2e;
+  color: white;
+  padding: 2rem;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+.pr-1 {
+  padding-right: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.social-media-icon-carriage {
+  height: 3rem;
+}
+
+.menu-item {
+  padding: 0.5rem;
+}
+.menu-item-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
